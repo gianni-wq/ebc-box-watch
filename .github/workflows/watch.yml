@@ -2,6 +2,8 @@ name: box watch
 
 # Every 5 minutes (off the hour's first minute, which GitHub delays most), check the box from
 # outside and message Gianni when it stops answering and when it is back. watch.py says how.
+# GitHub can take well over an hour to start a new schedule; a push touching this file
+# registers it again (the first one had not fired 84 minutes after it was added, 2026-10-25).
 on:
   schedule:
     - cron: "3-59/5 * * * *"
