@@ -1,0 +1,10 @@
+{
+  "alerted": false,
+  "down_since": null,
+  "fails": {
+    "ops": 0,
+    "order-files": 0,
+    "preferences": 0
+  },
+  "keepalive": "2026-10-25"
+}
